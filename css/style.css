@@ -58,6 +58,14 @@ img {
   color: var(--primary-color);
 }
 
+.navbar ul li:last-child a {
+  margin-left: 10px;
+}
+
+.navbar ul li a i {
+  margin-right: 10px;
+}
+
 /* Utility Classes */
 
 .container {
@@ -99,4 +107,9 @@ img {
 .btn-dark {
   background: var(--dark-color);
   color: #fff;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
 }
