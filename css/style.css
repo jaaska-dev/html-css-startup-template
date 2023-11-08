@@ -117,9 +117,15 @@ img {
   margin-bottom: 40px;
 }
 
+.testimonials .card p:nth-child(2) {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
 }
 
 
@@ -136,6 +142,15 @@ img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+/* Card */
+
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 /* Buttons */
@@ -235,11 +250,5 @@ img {
   color: #fff;
 }
 
-/* Card */
 
-.card {
-  background: #fff;
-  color: #000;
-  border-radius: 10px;
-  padding: 20px;
-}
+
