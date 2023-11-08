@@ -91,6 +91,22 @@ img {
   margin-right: 8px;
 }
 
+/* Video Section */
+
+.video {
+  padding: 10px 0px 40px;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-preview {
+  margin-bottom: 20px;
+}
+
 
 /* Utility Classes */
 
@@ -180,4 +196,25 @@ img {
 
 .text-center {
   text-align: center;
+}
+
+/* Background */
+.bg-primary {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.bg-light {
+  background: var(--light-color);
+  color: #333;
+}
+
+.bg-dark {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+.bg-black {
+  background: black;
+  color: #fff;
 }
