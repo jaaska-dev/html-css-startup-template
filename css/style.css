@@ -67,6 +67,17 @@ img {
 }
 
 /* Hero Section */
+.hero {
+  margin-bottom: 50px;
+}
+
+.hero .container {
+  background: url('../images/hero-bg.png') no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  height: 550px;
+}
+
 
 /* Utility Classes */
 
