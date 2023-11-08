@@ -107,6 +107,22 @@ img {
   margin-bottom: 20px;
 }
 
+/* Testimonials */
+.testimonials {
+  padding: 40px 0px;
+}
+
+.testimonials .testimonials-heading {
+  width: 700px;
+  margin-bottom: 40px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
 
 /* Utility Classes */
 
@@ -217,4 +233,13 @@ img {
 .bg-black {
   background: black;
   color: #fff;
+}
+
+/* Card */
+
+.card {
+  background: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 20px;
 }
